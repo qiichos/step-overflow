@@ -1,5 +1,7 @@
 # step-overflow
 
+[English](./README.md) | [日本語](./README.ja.md)
+
 CLI walking log tool. Record walks, sync to GitHub, visualize on GitHub Pages.
 
 ## Install
