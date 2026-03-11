@@ -18,6 +18,29 @@ export interface Route {
 
 export const ROUTES: Route[] = [
   {
+    id: "tmb",
+    name: "Tour du Mont Blanc",
+    description: "Circle the highest peak in the Alps through three countries in one spectacular loop",
+    from: "Chamonix",
+    to: "Chamonix",
+    total_km: 170,
+    emoji: "\u{26F7}\u{FE0F}",
+    difficulty: 1,
+    waypoints: [
+      { name: "Chamonix", km: 0, description: "Alpine capital at the foot of Mont Blanc" },
+      { name: "Les Houches", km: 8, description: "Gateway to the TMB" },
+      { name: "Les Contamines", km: 25, description: "Quiet village in the Montjoie valley" },
+      { name: "Col de la Croix du Bonhomme", km: 40, description: "First major Alpine pass" },
+      { name: "Courmayeur", km: 65, description: "Italian side of Mont Blanc" },
+      { name: "Rif. Bonatti", km: 80, description: "Panoramic hut facing the Grand Jorasses" },
+      { name: "La Fouly", km: 100, description: "Welcome to Switzerland" },
+      { name: "Champex-Lac", km: 115, description: "The little Canadian lake" },
+      { name: "Col de la Forclaz", km: 130, description: "Swiss-French border pass" },
+      { name: "Tr\u00E9-le-Champ", km: 150, description: "Final descent begins" },
+      { name: "Chamonix", km: 170, description: "Full circle complete" },
+    ],
+  },
+  {
     id: "tokaido",
     name: "Tokaido",
     description: "Walk the ancient highway where samurai and merchants once traveled between two great cities",

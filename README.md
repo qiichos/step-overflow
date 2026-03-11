@@ -56,6 +56,7 @@ Choose a route during setup and track your virtual progress as you walk:
 
 | Title | Route | Distance | Difficulty |
 |-------|-------|----------|------------|
+| ⛷️ Tour du Mont Blanc | Chamonix → Chamonix | 170 km | ★☆☆☆☆ |
 | 🏯 Tokaido | Tokyo → Osaka | 495 km | ★☆☆☆☆ |
 | 🕊️ Camino de Santiago | Lisbon → Santiago | 620 km | ★★☆☆☆ |
 | 🏛️ Nile Valley | Aswan → Cairo | 1,100 km | ★★☆☆☆ |
@@ -72,7 +73,7 @@ Each route has waypoints — you'll be notified when you arrive at each city alo
 
 ## Achievements
 
-Unlock 48 achievements as you walk:
+Unlock 49 achievements as you walk:
 
 - **Distance**: First Step, Century, Thousand Miles, 10K Club, ...
 - **Route**: Tokaido Master, Pilgrim, Silk Merchant, Globe Trotter, ...

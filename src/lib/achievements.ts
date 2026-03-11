@@ -89,6 +89,12 @@ export const ACHIEVEMENTS: Achievement[] = [
     check: (ctx) => ctx.completedRoutes.length >= 1,
   },
   {
+    id: "alpinist",
+    name: "Alpinist",
+    description: "Circle Mont Blanc through three countries",
+    check: (ctx) => ctx.completedRoutes.includes("tmb"),
+  },
+  {
     id: "tokaido_master",
     name: "Tokaido Master",
     description: "Walk the path of the samurai",
@@ -180,7 +186,7 @@ export const ACHIEVEMENTS: Achievement[] = [
     id: "legendary_walker",
     name: "Legendary Walker",
     description: "Walk every route in the world",
-    check: (ctx) => ctx.completedRoutes.length >= 11,
+    check: (ctx) => ctx.completedRoutes.length >= 12,
   },
 
   // ── Single Walk Records ──
