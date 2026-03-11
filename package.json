@@ -1,0 +1,50 @@
+{
+  "name": "step-overflow",
+  "version": "0.1.0",
+  "description": "CLI walking log tool - record walks, sync to GitHub, visualize on GitHub Pages",
+  "type": "module",
+  "bin": {
+    "stp": "./dist/cli.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/cli.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qiichos/step-overflow.git"
+  },
+  "keywords": [
+    "walking",
+    "fitness",
+    "cli",
+    "github-pages",
+    "journey",
+    "achievements",
+    "gamification",
+    "walking-tracker"
+  ],
+  "author": "qiichos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qiichos/step-overflow/issues"
+  },
+  "homepage": "https://github.com/qiichos/step-overflow#readme",
+  "dependencies": {
+    "citty": "^0.2.1",
+    "consola": "^3.4.2",
+    "log-update": "^7.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.5",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
