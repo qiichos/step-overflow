@@ -172,7 +172,7 @@ export const ROUTES: Route[] = [
     from: "Timbuktu",
     to: "Marrakech",
     total_km: 2200,
-    emoji: "\u{1F42A}",
+    emoji: "\u{1F3DC}\u{FE0F}",
     difficulty: 3,
     waypoints: [
       { name: "Timbuktu", km: 0, description: "City of 333 saints" },

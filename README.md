@@ -61,7 +61,7 @@ Choose a route during setup and track your virtual progress as you walk:
 | 🏛️ Nile Valley | Aswan → Cairo | 1,100 km | ★★☆☆☆ |
 | 🐘 Hannibal's March | Cartagena → Rome | 1,500 km | ★★☆☆☆ |
 | ⛪ Via Francigena | Canterbury → Rome | 1,900 km | ★★★☆☆ |
-| 🐪 Trans-Saharan | Timbuktu → Marrakech | 2,200 km | ★★★☆☆ |
+| 🏜️ Trans-Saharan | Timbuktu → Marrakech | 2,200 km | ★★★☆☆ |
 | 🏔️ Qhapaq Ñan | Quito → Cusco | 2,500 km | ★★★☆☆ |
 | ⛵ Spice Route | Banda Neira → Singapore | 3,500 km | ★★★☆☆ |
 | 🇺🇸 Route 66 | Chicago → Los Angeles | 3,940 km | ★★★☆☆ |
