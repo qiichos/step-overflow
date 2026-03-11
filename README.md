@@ -54,19 +54,19 @@ stp add 60 --date 2026-03-01      # Backdate a record
 
 Choose a route during setup and track your virtual progress as you walk:
 
-| Route | Distance | Difficulty |
-|-------|----------|------------|
-| Tokyo → Osaka (Tokaido) | 495 km | ★☆☆☆☆ |
-| Lisbon → Santiago (Camino de Santiago) | 620 km | ★★☆☆☆ |
-| Aswan → Cairo (Nile Valley) | 1,100 km | ★★☆☆☆ |
-| Cartagena → Rome (Hannibal's March) | 1,500 km | ★★☆☆☆ |
-| Canterbury → Rome (Via Francigena) | 1,900 km | ★★★☆☆ |
-| Timbuktu → Marrakech (Trans-Saharan) | 2,200 km | ★★★☆☆ |
-| Quito → Cusco (Qhapaq Ñan) | 2,500 km | ★★★☆☆ |
-| Banda Neira → Singapore (Spice Route) | 3,500 km | ★★★☆☆ |
-| Chicago → Los Angeles (Route 66) | 3,940 km | ★★★☆☆ |
-| Xi'an → Constantinople (Silk Road) | 7,000 km | ★★★★☆ |
-| Around the World | 40,075 km | ★★★★★ |
+| Title | Route | Distance | Difficulty |
+|-------|-------|----------|------------|
+| 🇯🇵 Tokaido | Tokyo → Osaka | 495 km | ★☆☆☆☆ |
+| 🇵🇹 Camino de Santiago | Lisbon → Santiago | 620 km | ★★☆☆☆ |
+| 🇪🇬 Nile Valley | Aswan → Cairo | 1,100 km | ★★☆☆☆ |
+| 🐘 Hannibal's March | Cartagena → Rome | 1,500 km | ★★☆☆☆ |
+| ⛪ Via Francigena | Canterbury → Rome | 1,900 km | ★★★☆☆ |
+| 🐪 Trans-Saharan | Timbuktu → Marrakech | 2,200 km | ★★★☆☆ |
+| 🏔️ Qhapaq Ñan | Quito → Cusco | 2,500 km | ★★★☆☆ |
+| ⛵ Spice Route | Banda Neira → Singapore | 3,500 km | ★★★☆☆ |
+| 🇺🇸 Route 66 | Chicago → Los Angeles | 3,940 km | ★★★☆☆ |
+| 🐫 Silk Road | Xi'an → Constantinople | 7,000 km | ★★★★☆ |
+| 🌍 Around the World | London → London | 40,075 km | ★★★★★ |
 
 Each route has waypoints — you'll be notified when you arrive at each city along the way. Complete a route and choose your next adventure.
 
