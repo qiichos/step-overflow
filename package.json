@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "CLI walking log tool - record walks, sync to GitHub, visualize on GitHub Pages",
   "type": "module",
+  "main": "./dist/cli.js",
   "bin": {
     "stp": "./dist/cli.js"
   },
