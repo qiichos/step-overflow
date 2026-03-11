@@ -58,7 +58,9 @@ Choose a route during setup and track your virtual progress as you walk:
 |-------|----------|------------|
 | Tokyo → Osaka (Tokaido) | 495 km | ★☆☆☆☆ |
 | Lisbon → Santiago (Camino de Santiago) | 620 km | ★★☆☆☆ |
-| Tokyo → Sapporo (Northern Route) | 1,150 km | ★★☆☆☆ |
+| Aswan → Cairo (Nile Valley) | 1,100 km | ★★☆☆☆ |
+| Cartagena → Rome (Hannibal's March) | 1,500 km | ★★☆☆☆ |
+| Canterbury → Rome (Via Francigena) | 1,900 km | ★★★☆☆ |
 | Timbuktu → Marrakech (Trans-Saharan) | 2,200 km | ★★★☆☆ |
 | Quito → Cusco (Qhapaq Ñan) | 2,500 km | ★★★☆☆ |
 | Banda Neira → Singapore (Spice Route) | 3,500 km | ★★★☆☆ |
@@ -70,7 +72,7 @@ Each route has waypoints — you'll be notified when you arrive at each city alo
 
 ## Achievements
 
-Unlock 46 achievements as you walk:
+Unlock 48 achievements as you walk:
 
 - **Distance**: First Step, Century, Thousand Miles, 10K Club, ...
 - **Route**: Tokaido Master, Pilgrim, Silk Merchant, Globe Trotter, ...

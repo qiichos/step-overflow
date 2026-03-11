@@ -95,10 +95,22 @@ export const ACHIEVEMENTS: Achievement[] = [
     check: (ctx) => ctx.completedRoutes.includes("tokaido"),
   },
   {
-    id: "northern_explorer",
-    name: "Northern Explorer",
-    description: "Brave the snow and reach the frontier island",
-    check: (ctx) => ctx.completedRoutes.includes("hokkaido"),
+    id: "pharaohs_path",
+    name: "Pharaoh's Path",
+    description: "Walk the Nile from Aswan to the Pyramids",
+    check: (ctx) => ctx.completedRoutes.includes("nile_valley"),
+  },
+  {
+    id: "hannibals_legacy",
+    name: "Hannibal's Legacy",
+    description: "March with elephants across the Alps",
+    check: (ctx) => ctx.completedRoutes.includes("hannibal"),
+  },
+  {
+    id: "via_francigena",
+    name: "Via Francigena",
+    description: "Pilgrim from Canterbury to the Eternal City",
+    check: (ctx) => ctx.completedRoutes.includes("via_francigena"),
   },
   {
     id: "pilgrim",
@@ -168,7 +180,7 @@ export const ACHIEVEMENTS: Achievement[] = [
     id: "legendary_walker",
     name: "Legendary Walker",
     description: "Walk every route in the world",
-    check: (ctx) => ctx.completedRoutes.length >= 9,
+    check: (ctx) => ctx.completedRoutes.length >= 11,
   },
 
   // ── Single Walk Records ──
