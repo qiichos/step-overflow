@@ -68,9 +68,9 @@ Each route has waypoints — you'll be notified when you arrive at each city alo
 
 Unlock achievements as you walk:
 
-- **Distance**: First Step, 10K, Century, 500 Club, Thousand Miles
-- **Journey**: First Journey, World Traveler, Globe Trotter
-- **Records**: Early Bird, Night Owl, Speed Demon, Marathon, Long Haul
+- **Distance**: First Step, 10K, Century, 500 Club, Thousand Miles, 5,000 Club, 10K Club
+- **Journey**: First Journey, World Traveler, Tokaido Master, Pilgrim, Route 66 Rider, Transcontinental, Globe Trotter
+- **Records**: Early Bird, Night Owl, Speed Demon, Half Marathon, Marathon, Long Haul, Centurion
 
 ## Data
 

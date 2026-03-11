@@ -49,6 +49,18 @@ export const ACHIEVEMENTS: Achievement[] = [
     description: "Walk 1,000 km total",
     check: (ctx) => ctx.totalKm >= 1000,
   },
+  {
+    id: "5000_club",
+    name: "5,000 Club",
+    description: "Walk further than the length of Japan",
+    check: (ctx) => ctx.totalKm >= 5000,
+  },
+  {
+    id: "ten_thousand",
+    name: "10K Club",
+    description: "Five digits of distance",
+    check: (ctx) => ctx.totalKm >= 10000,
+  },
   // Route
   {
     id: "first_journey",
@@ -61,6 +73,32 @@ export const ACHIEVEMENTS: Achievement[] = [
     name: "World Traveler",
     description: "Complete 3 routes",
     check: (ctx) => ctx.completedRoutes.length >= 3,
+  },
+  {
+    id: "tokaido_master",
+    name: "Tokaido Master",
+    description: "Walk the path of the samurai",
+    check: (ctx) => ctx.completedRoutes.includes("tokaido"),
+  },
+  {
+    id: "pilgrim",
+    name: "Pilgrim",
+    description: "Complete the Camino de Santiago",
+    check: (ctx) => ctx.completedRoutes.includes("camino"),
+  },
+  {
+    id: "route66_rider",
+    name: "Route 66 Rider",
+    description: "Get your kicks on Route 66",
+    check: (ctx) => ctx.completedRoutes.includes("route66"),
+  },
+  {
+    id: "transcontinental",
+    name: "Transcontinental",
+    description: "Cross a continent on foot",
+    check: (ctx) =>
+      ctx.completedRoutes.includes("route66") ||
+      ctx.completedRoutes.includes("around"),
   },
   {
     id: "globe_trotter",
@@ -88,6 +126,12 @@ export const ACHIEVEMENTS: Achievement[] = [
     check: (ctx) => ctx.allRecords.some((r) => r.speed_kmh >= 6),
   },
   {
+    id: "half_marathon",
+    name: "Half Marathon",
+    description: "Complete a half marathon distance",
+    check: (ctx) => ctx.allRecords.some((r) => r.distance_km >= 21.1),
+  },
+  {
     id: "marathon",
     name: "Marathon",
     description: "Walk 42.195 km in a single session",
@@ -98,6 +142,12 @@ export const ACHIEVEMENTS: Achievement[] = [
     name: "Long Haul",
     description: "Walk 120+ minutes in a single session",
     check: (ctx) => ctx.allRecords.some((r) => r.time_min >= 120),
+  },
+  {
+    id: "centurion",
+    name: "Centurion",
+    description: "Log 100 walks",
+    check: (ctx) => ctx.allRecords.length >= 100,
   },
 ];
 
