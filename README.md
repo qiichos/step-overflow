@@ -57,9 +57,13 @@ Choose a route during setup and track your virtual progress as you walk:
 | Route | Distance | Difficulty |
 |-------|----------|------------|
 | Tokyo → Osaka (Tokaido) | 495 km | ★☆☆☆☆ |
-| Tokyo → Sapporo | 1,150 km | ★★☆☆☆ |
 | Lisbon → Santiago (Camino Portugués) | 620 km | ★★☆☆☆ |
-| Route 66 | 3,940 km | ★★★☆☆ |
+| Tokyo → Sapporo (Northern Route) | 1,150 km | ★★☆☆☆ |
+| Timbuktu → Marrakech (Trans-Saharan) | 2,200 km | ★★★☆☆ |
+| Quito → Cusco (Inca Road) | 2,500 km | ★★★☆☆ |
+| Banda Neira → Singapore (Spice Route) | 3,500 km | ★★★☆☆ |
+| Chicago → Los Angeles (Route 66) | 3,940 km | ★★★☆☆ |
+| Xi'an → Constantinople (Silk Road) | 7,000 km | ★★★★☆ |
 | Around the World | 40,075 km | ★★★★★ |
 
 Each route has waypoints — you'll be notified when you arrive at each city along the way. Complete a route and choose your next adventure.
