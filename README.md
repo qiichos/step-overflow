@@ -60,7 +60,7 @@ Choose a route during setup and track your virtual progress as you walk:
 | Lisbon → Santiago (Camino Portugués) | 620 km | ★★☆☆☆ |
 | Tokyo → Sapporo (Northern Route) | 1,150 km | ★★☆☆☆ |
 | Timbuktu → Marrakech (Trans-Saharan) | 2,200 km | ★★★☆☆ |
-| Quito → Cusco (Inca Road) | 2,500 km | ★★★☆☆ |
+| Quito → Cusco (Qhapaq Ñan) | 2,500 km | ★★★☆☆ |
 | Banda Neira → Singapore (Spice Route) | 3,500 km | ★★★☆☆ |
 | Chicago → Los Angeles (Route 66) | 3,940 km | ★★★☆☆ |
 | Xi'an → Constantinople (Silk Road) | 7,000 km | ★★★★☆ |

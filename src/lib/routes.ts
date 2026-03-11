@@ -7,6 +7,7 @@ export interface Waypoint {
 export interface Route {
   id: string;
   name: string;
+  description: string;
   from: string;
   to: string;
   total_km: number;
@@ -19,6 +20,7 @@ export const ROUTES: Route[] = [
   {
     id: "tokaido",
     name: "Tokaido",
+    description: "Walk the ancient highway where samurai and merchants once traveled between two great cities",
     from: "Tokyo",
     to: "Osaka",
     total_km: 495,
@@ -42,6 +44,7 @@ export const ROUTES: Route[] = [
   {
     id: "hokkaido",
     name: "Northern Route",
+    description: "Journey north through festivals, hot springs, and snow to reach the frontier island",
     from: "Tokyo",
     to: "Sapporo",
     total_km: 1150,
@@ -64,6 +67,7 @@ export const ROUTES: Route[] = [
   {
     id: "camino",
     name: "Camino Portugu\u00E9s",
+    description: "Follow the ancient pilgrimage from Lisbon through port wine country to the sacred cathedral",
     from: "Lisbon",
     to: "Santiago de Compostela",
     total_km: 620,
@@ -86,6 +90,7 @@ export const ROUTES: Route[] = [
   {
     id: "route66",
     name: "Route 66",
+    description: "Get your kicks on the Mother Road, from the Windy City to the California coast",
     from: "Chicago",
     to: "Los Angeles",
     total_km: 3940,
@@ -109,6 +114,7 @@ export const ROUTES: Route[] = [
   {
     id: "trans_sahara",
     name: "Trans-Saharan Trade Route",
+    description: "Cross the greatest desert on Earth with the caravans that traded gold for salt",
     from: "Timbuktu",
     to: "Marrakech",
     total_km: 2200,
@@ -123,8 +129,9 @@ export const ROUTES: Route[] = [
     ],
   },
   {
-    id: "inca_road",
-    name: "Inca Road",
+    id: "qhapaq_nan",
+    name: "Qhapaq \u00D1an",
+    description: "Walk the Royal Road of the Incas through mountain passes and imperial way stations",
     from: "Quito",
     to: "Cusco",
     total_km: 2500,
@@ -138,8 +145,9 @@ export const ROUTES: Route[] = [
     ],
   },
   {
-    id: "spice_route",
+    id: "spice_trader",
     name: "Spice Route",
+    description: "Sail from the nutmeg islands through the spice archipelago to the gateway of world trade",
     from: "Banda Neira",
     to: "Singapore",
     total_km: 3500,
@@ -158,6 +166,7 @@ export const ROUTES: Route[] = [
   {
     id: "silk_road",
     name: "Silk Road",
+    description: "Trace the legendary route where silk and ideas crossed deserts and oases to reach the Mediterranean",
     from: "Xi'an",
     to: "Constantinople",
     total_km: 7000,
@@ -179,6 +188,7 @@ export const ROUTES: Route[] = [
   {
     id: "around",
     name: "Around the World",
+    description: "Circle the entire globe, crossing every continent and ocean along the way",
     from: "London",
     to: "London",
     total_km: 40075,
@@ -255,7 +265,7 @@ export function formatRouteOption(route: Route): string {
     "\u2605".repeat(route.difficulty) +
     "\u2606".repeat(5 - route.difficulty);
   const km = route.total_km.toLocaleString();
-  return `${route.emoji} ${route.from} \u2192 ${route.to}  (${km} km)  ${stars}`;
+  return `${route.emoji} ${route.from} \u2192 ${route.to}  (${km} km)  ${stars}\n   ${route.description}`;
 }
 
 export function progressBar(percent: number, width: number = 20): string {
