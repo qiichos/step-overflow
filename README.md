@@ -56,9 +56,9 @@ Choose a route during setup and track your virtual progress as you walk:
 
 | Title | Route | Distance | Difficulty |
 |-------|-------|----------|------------|
-| 🇯🇵 Tokaido | Tokyo → Osaka | 495 km | ★☆☆☆☆ |
-| 🇵🇹 Camino de Santiago | Lisbon → Santiago | 620 km | ★★☆☆☆ |
-| 🇪🇬 Nile Valley | Aswan → Cairo | 1,100 km | ★★☆☆☆ |
+| 🏯 Tokaido | Tokyo → Osaka | 495 km | ★☆☆☆☆ |
+| 🕊️ Camino de Santiago | Lisbon → Santiago | 620 km | ★★☆☆☆ |
+| 🏛️ Nile Valley | Aswan → Cairo | 1,100 km | ★★☆☆☆ |
 | 🐘 Hannibal's March | Cartagena → Rome | 1,500 km | ★★☆☆☆ |
 | ⛪ Via Francigena | Canterbury → Rome | 1,900 km | ★★★☆☆ |
 | 🐪 Trans-Saharan | Timbuktu → Marrakech | 2,200 km | ★★★☆☆ |

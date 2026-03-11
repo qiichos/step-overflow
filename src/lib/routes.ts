@@ -24,7 +24,7 @@ export const ROUTES: Route[] = [
     from: "Tokyo",
     to: "Osaka",
     total_km: 495,
-    emoji: "\u{1F1EF}\u{1F1F5}",
+    emoji: "\u{1F3EF}",
     difficulty: 1,
     waypoints: [
       { name: "Tokyo", km: 0, description: "Capital of Japan" },
@@ -48,7 +48,7 @@ export const ROUTES: Route[] = [
     from: "Aswan",
     to: "Cairo",
     total_km: 1100,
-    emoji: "\u{1F1EA}\u{1F1EC}",
+    emoji: "\u{1F3DB}\u{FE0F}",
     difficulty: 2,
     waypoints: [
       { name: "Aswan", km: 0, description: "Gateway to Nubia" },
@@ -119,7 +119,7 @@ export const ROUTES: Route[] = [
     from: "Lisbon",
     to: "Santiago de Compostela",
     total_km: 620,
-    emoji: "\u{1F1F5}\u{1F1F9}",
+    emoji: "\u{1F54A}\u{FE0F}",
     difficulty: 2,
     waypoints: [
       { name: "Lisbon", km: 0, description: "Capital of Portugal" },
