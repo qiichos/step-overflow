@@ -1,12 +1,12 @@
 import { defineCommand } from "citty";
 import { consola } from "consola";
 import { join } from "node:path";
-import { homedir } from "node:os";
 import { mkdir, writeFile } from "node:fs/promises";
 import {
   configExists,
   saveConfig,
   getPagesUrl,
+  getDataDir,
   type Config,
   type JourneyState,
 } from "../lib/config.js";
@@ -119,10 +119,10 @@ export const initCommand = defineCommand({
   run: async () => {
     if (configExists()) {
       consola.error(
-        "step-overflow is already initialized. Config exists at ~/.step-overflow/config.json"
+        "step-overflow is already initialized."
       );
       consola.info(
-        "To re-initialize, delete ~/.step-overflow/ and the local repo directory first."
+        "To re-initialize, delete the config and data directories first."
       );
       process.exit(1);
     }
@@ -155,7 +155,7 @@ export const initCommand = defineCommand({
     const { repoName, visibility, defaultSpeed, weightKg } = await promptInputs();
 
     const fullName = `${username}/${repoName}`;
-    const localPath = join(homedir(), "step-overflow", repoName);
+    const localPath = join(getDataDir(), repoName);
 
     // 3. Choose journey route
     const routeOptions = ROUTES.map(formatRouteOption);

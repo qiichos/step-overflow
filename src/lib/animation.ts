@@ -44,35 +44,38 @@ const FRAMES = [
 const GROUND_CHAR = "\u2500";
 const GROUND_LEN = 46;
 
-export async function playWalkAnimation(durationMs: number = 2000): Promise<void> {
+export async function playWalkAnimation(
+  until: Promise<unknown>,
+  minMs: number = 1000
+): Promise<void> {
   const frameWidth = 5;
   let frameIdx = 0;
   let pos = 0;
 
-  return new Promise((resolve) => {
-    const interval = setInterval(() => {
-      const frame = FRAMES[frameIdx % FRAMES.length];
-      const pad = " ".repeat(pos);
-      const ground = GROUND_CHAR.repeat(GROUND_LEN);
+  const interval = setInterval(() => {
+    const frame = FRAMES[frameIdx % FRAMES.length];
+    const pad = " ".repeat(pos);
+    const ground = GROUND_CHAR.repeat(GROUND_LEN);
 
-      const lines = [
-        pad + frame[0],
-        pad + frame[1],
-        pad + frame[2],
-        ground,
-      ];
+    const lines = [
+      pad + frame[0],
+      pad + frame[1],
+      pad + frame[2],
+      ground,
+    ];
 
-      logUpdate(lines.join("\n"));
+    logUpdate(lines.join("\n"));
 
-      frameIdx++;
-      pos += 2;
-      if (pos > GROUND_LEN - frameWidth) pos = 0;
-    }, 120);
+    frameIdx++;
+    pos += 2;
+    if (pos > GROUND_LEN - frameWidth) pos = 0;
+  }, 120);
 
-    setTimeout(() => {
-      clearInterval(interval);
-      logUpdate.clear();
-      resolve();
-    }, durationMs);
-  });
+  await Promise.all([
+    until.catch(() => {}),
+    new Promise((resolve) => setTimeout(resolve, minMs)),
+  ]);
+
+  clearInterval(interval);
+  logUpdate.clear();
 }

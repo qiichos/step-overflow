@@ -74,14 +74,16 @@ Unlock achievements as you walk:
 
 ## Data
 
-Records are stored in `~/step-overflow/<repo>/data/walking.csv`:
+Records are stored in `~/.local/share/step-overflow/<repo>/data/walking.csv`:
 
 ```
 datetime,time_min,speed_kmh,distance_km,weight_kg
 2026-03-06T07:30:00,60,4.0,4.00,70
 ```
 
-Config is stored in `~/.step-overflow/config.json`.
+Config is stored in `~/.config/step-overflow/config.json`.
+
+Paths follow the [XDG Base Directory Specification](https://specifications.freedesktop.org/basedir-spec/latest/). Override with `$XDG_CONFIG_HOME` and `$XDG_DATA_HOME`.
 
 ## Dashboard
 

@@ -138,7 +138,7 @@ export const addCommand = defineCommand({
       }
     })();
 
-    await playWalkAnimation(2000);
+    await playWalkAnimation(gitSync);
 
     // --- Display notifications ---
 

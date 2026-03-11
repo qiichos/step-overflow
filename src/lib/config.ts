@@ -21,8 +21,20 @@ export interface Config {
   achievements?: Record<string, string>;
 }
 
-const CONFIG_DIR = join(homedir(), ".step-overflow");
+function xdgConfigHome(): string {
+  return process.env.XDG_CONFIG_HOME || join(homedir(), ".config");
+}
+
+function xdgDataHome(): string {
+  return process.env.XDG_DATA_HOME || join(homedir(), ".local", "share");
+}
+
+const CONFIG_DIR = join(xdgConfigHome(), "step-overflow");
 const CONFIG_PATH = join(CONFIG_DIR, "config.json");
+
+export function getDataDir(): string {
+  return join(xdgDataHome(), "step-overflow");
+}
 
 export function configExists(): boolean {
   return existsSync(CONFIG_PATH);
