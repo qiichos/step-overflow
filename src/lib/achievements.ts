@@ -258,6 +258,60 @@ export const ACHIEVEMENTS: Achievement[] = [
     description: "Log 100 walks",
     check: (ctx) => ctx.allRecords.length >= 100,
   },
+  {
+    id: "200_walks",
+    name: "200 Walks",
+    description: "Walking is part of your life",
+    check: (ctx) => ctx.allRecords.length >= 200,
+  },
+  {
+    id: "300_walks",
+    name: "300 Walks",
+    description: "A walk a day keeps the doctor away",
+    check: (ctx) => ctx.allRecords.length >= 300,
+  },
+  {
+    id: "400_walks",
+    name: "400 Walks",
+    description: "Your shoes need replacing",
+    check: (ctx) => ctx.allRecords.length >= 400,
+  },
+  {
+    id: "500_walks",
+    name: "500 Walks",
+    description: "Half a thousand steps forward",
+    check: (ctx) => ctx.allRecords.length >= 500,
+  },
+  {
+    id: "600_walks",
+    name: "600 Walks",
+    description: "The road knows your name",
+    check: (ctx) => ctx.allRecords.length >= 600,
+  },
+  {
+    id: "700_walks",
+    name: "700 Walks",
+    description: "Walking legend in the making",
+    check: (ctx) => ctx.allRecords.length >= 700,
+  },
+  {
+    id: "800_walks",
+    name: "800 Walks",
+    description: "Unstoppable force of nature",
+    check: (ctx) => ctx.allRecords.length >= 800,
+  },
+  {
+    id: "900_walks",
+    name: "900 Walks",
+    description: "The final stretch to four digits",
+    check: (ctx) => ctx.allRecords.length >= 900,
+  },
+  {
+    id: "1000_walks",
+    name: "1,000 Walks",
+    description: "One thousand walks. Legendary.",
+    check: (ctx) => ctx.allRecords.length >= 1000,
+  },
 ];
 
 export function checkNewAchievements(
