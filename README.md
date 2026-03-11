@@ -72,12 +72,11 @@ Each route has waypoints — you'll be notified when you arrive at each city alo
 
 Unlock 46 achievements as you walk:
 
-- **Distance**: First Step, 10K, Century, 500 Club, Thousand Miles, 2,000 Club, 5,000 Club, 10K Club
-- **Route Completion**: First Journey, Tokaido Master, Northern Explorer, Pilgrim, Route 66 Rider, Desert Caravan, Sun Walker, Spice Master, Silk Merchant, Transcontinental, Globe Trotter
-- **Route Collection**: World Traveler, Five Journeys, Legendary Walker
-- **Single Walk**: 5K Walk, 10K Walk, Half Marathon, Marathon, Speed Demon, Long Haul
+- **Distance**: First Step, Century, Thousand Miles, 10K Club, ...
+- **Route**: Tokaido Master, Pilgrim, Silk Merchant, Globe Trotter, ...
+- **Single Walk**: 5K Walk, Half Marathon, Marathon, Speed Demon, ...
 - **Time & Habit**: Early Bird, Night Owl, Weekend Warrior, Double Up
-- **Walk Count**: 5, 10, 50, 100, 200, 300, 400, 500, 600, 700, 800, 900, 1,000, 10,000 Walks
+- **Walk Count**: Milestones at 5, 10, 50, 100, and every 100 up to 1,000
 
 ## Data
 
