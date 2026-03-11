@@ -58,7 +58,7 @@ Choose a route during setup and track your virtual progress as you walk:
 |-------|----------|------------|
 | Tokyo → Osaka (Tokaido) | 495 km | ★☆☆☆☆ |
 | Tokyo → Sapporo | 1,150 km | ★★☆☆☆ |
-| Camino de Santiago | 800 km | ★★☆☆☆ |
+| Lisbon → Santiago (Camino Portugués) | 620 km | ★★☆☆☆ |
 | Route 66 | 3,940 km | ★★★☆☆ |
 | Around the World | 40,075 km | ★★★★★ |
 

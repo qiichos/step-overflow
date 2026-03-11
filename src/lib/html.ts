@@ -283,7 +283,7 @@ export function generateIndexHtml(config?: Config): string {
         const isNext = nextWp && nextWp.km === wp.km;
         const cls = passed ? 'waypoint passed' : (isNext ? 'waypoint next' : 'waypoint');
         html += '<div class="' + cls + '" style="left:' + pct + '%"></div>';
-        html += '<div class="waypoint-label' + (passed ? ' passed' : '') + '" style="left:' + pct + '%">' + wp.name + '</div>';
+        html += '<div class="waypoint-label' + (passed ? ' passed' : '') + '" style="left:' + pct + '%"  title="' + (wp.description || '') + '">' + wp.name + '</div>';
       }
       // Current position marker
       if (progress < 100) {

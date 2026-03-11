@@ -144,9 +144,10 @@ export const addCommand = defineCommand({
 
     // Waypoint arrivals
     if (newWaypoints.length > 0 && journeyProgress) {
-      const names = newWaypoints.map((w) => w.name).join(" and ");
       consola.log("");
-      consola.success(`You've arrived in ${names}!`);
+      for (const w of newWaypoints) {
+        consola.success(`You've arrived in ${w.name} \u2014 ${w.description}`);
+      }
       if (journeyProgress.next) {
         consola.info(`Next stop: ${journeyProgress.next.name} \u2014 ${Math.ceil(journeyProgress.nextDistance)} km to go`);
       }
