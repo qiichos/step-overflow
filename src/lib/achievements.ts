@@ -241,21 +241,27 @@ export const ACHIEVEMENTS: Achievement[] = [
 
   // ── Walk Count ──
   {
-    id: "getting_started",
-    name: "Getting Started",
-    description: "Log 10 walks",
+    id: "5_walks",
+    name: "5 Walks",
+    description: "Your first handful of walks",
+    check: (ctx) => ctx.allRecords.length >= 5,
+  },
+  {
+    id: "10_walks",
+    name: "10 Walks",
+    description: "Double digits",
     check: (ctx) => ctx.allRecords.length >= 10,
   },
   {
-    id: "dedicated",
-    name: "Dedicated",
-    description: "Log 50 walks",
+    id: "50_walks",
+    name: "50 Walks",
+    description: "Halfway to a hundred",
     check: (ctx) => ctx.allRecords.length >= 50,
   },
   {
-    id: "centurion",
-    name: "Centurion",
-    description: "Log 100 walks",
+    id: "100_walks",
+    name: "100 Walks",
+    description: "The Centurion",
     check: (ctx) => ctx.allRecords.length >= 100,
   },
   {
@@ -311,6 +317,12 @@ export const ACHIEVEMENTS: Achievement[] = [
     name: "1,000 Walks",
     description: "One thousand walks. Legendary.",
     check: (ctx) => ctx.allRecords.length >= 1000,
+  },
+  {
+    id: "10000_walks",
+    name: "10,000 Walks",
+    description: "Beyond all limits",
+    check: (ctx) => ctx.allRecords.length >= 10000,
   },
 ];
 
