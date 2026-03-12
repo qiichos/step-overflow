@@ -11,9 +11,10 @@ interface ExecResult {
 async function run(
   cmd: string,
   args: string[],
-  cwd?: string
+  cwd?: string,
+  timeoutMs?: number
 ): Promise<ExecResult> {
-  return exec(cmd, args, { cwd });
+  return exec(cmd, args, { cwd, timeout: timeoutMs });
 }
 
 export async function checkPrerequisites(): Promise<{
@@ -102,7 +103,7 @@ export async function gitCommit(
 }
 
 export async function gitPush(cwd: string): Promise<void> {
-  await run("git", ["push"], cwd);
+  await run("git", ["push"], cwd, 3_000);
 }
 
 export async function hasUnpushedCommits(
@@ -134,5 +135,5 @@ export async function gitAddRemote(
 }
 
 export async function gitPushFirst(cwd: string): Promise<void> {
-  await run("git", ["push", "-u", "origin", "main"], cwd);
+  await run("git", ["push", "-u", "origin", "main"], cwd, 3_000);
 }
