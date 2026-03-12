@@ -1,8 +1,49 @@
-# step-overflow
+<h1 align="center">step-overflow</h1>
 
-[English](./README.md) | [日本語](./README.ja.md)
+<p align="center">
+  <strong>A high-energy CLI for treadmill desk walkers.</strong>
+</p>
 
-CLI walking log tool. Record walks, sync to GitHub, visualize on GitHub Pages.
+<p align="center">
+  Track your steps at work, log progress instantly, auto-push to GitHub,
+  and stay motivated with journey flavor and unlockable achievements —
+  all while building healthier habits without slowing down.
+</p>
+
+<p align="center">
+  <a href="./README.md">English</a> ·
+  <a href="./README.ja.md">日本語</a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/CLI-fast%20logging-blue" />
+  <img src="https://img.shields.io/badge/GitHub-auto--push-black" />
+  <img src="https://img.shields.io/badge/Journey-gameful-green" />
+  <img src="https://img.shields.io/badge/Achievements-49%20unlockables-orange" />
+</p>
+
+---
+
+## Why step-overflow?
+
+- **Fast logging** — record a walk in seconds from the terminal
+- **GitHub sync** — automatically commit and push your progress
+- **Journey mode** — turn daily walking into a virtual adventure
+- **Achievements** — unlock milestones and keep momentum going
+
+## Preview
+
+<p align="center">
+  <img width="976" alt="Dashboard overview" src="https://github.com/user-attachments/assets/d9f5ea55-2313-41dd-9dd8-64413587feb8" />
+</p>
+
+<p align="center">
+  <img width="983" alt="Journey view" src="https://github.com/user-attachments/assets/e153b8a2-91b0-4d7d-ae51-440b869bdd53" />
+</p>
+
+<p align="center">
+  <img width="953" alt="Achievements view" src="https://github.com/user-attachments/assets/02fa44be-61d4-4a71-9012-a0ab0711999c" />
+</p>
 
 ## Install
 
