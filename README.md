@@ -5,8 +5,8 @@
 </p>
 
 <p align="center">
-  Track your steps at work, log progress instantly, auto-push to GitHub,  
-  and stay motivated with virtual journeys and unlockable achievements —
+  Track your steps at work, log progress instantly, auto-push to GitHub,<br />
+  and stay motivated with virtual journeys and unlockable achievements - <br />
   all while building healthier habits without slowing down.
 </p>
 
