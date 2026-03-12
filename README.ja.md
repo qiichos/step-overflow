@@ -1,33 +1,61 @@
-# step-overflow
+<h1 align="center">step-overflow</h1>
 
-[English](./README.md) | [日本語](./README.ja.md)
+<p align="center">
+  <strong>トレッドミルデスクで働く人のための、ハイテンションなCLI。</strong>
+</p>
 
-ウォーキング記録CLIツール。歩いた記録をGitHubに保存し、GitHub Pagesで可視化します。
+<p align="center">
+  仕事をしながら歩いた記録をすばやく残し、進捗をGitHubへ自動プッシュ。
+  さらに、バーチャルジャーニーや実績解除でモチベーションを維持しながら、
+  健康的な習慣づくりを無理なく続けられます。
+</p>
 
-## インストール
+<p align="center">
+  <a href="./README.md">English</a> ·
+  <a href="./README.ja.md">日本語</a>
+</p>
 
-```bash
-npm install -g step-overflow
-```
+<p align="center">
+  <img src="https://img.shields.io/badge/CLI-fast%20logging-blue" />
+  <img src="https://img.shields.io/badge/GitHub-auto--push-black" />
+  <img src="https://img.shields.io/badge/Journey-virtual%20routes-green" />
+  <img src="https://img.shields.io/badge/Achievements-49%20unlockables-orange" />
+</p>
 
-### 必要なもの
+---
 
-- Node.js >= 18
-- git
-- [GitHub CLI](https://cli.github.com/) (`gh`)
+## step-overflowでできること
+
+- **すばやく記録** — ターミナルから数秒でウォーキングを記録
+- **GitHub連携** — 進捗を自動でコミット＆プッシュ
+- **ジャーニーモード** — 毎日のウォーキングをバーチャルな旅に変換
+- **実績解除** — マイルストーン達成で楽しく継続
+
+## プレビュー
+
+<p align="center">
+  <img width="976" alt="Dashboard overview" src="https://github.com/user-attachments/assets/d9f5ea55-2313-41dd-9dd8-64413587feb8" />
+</p>
+
+<p align="center">
+  <img width="983" alt="Journey view" src="https://github.com/user-attachments/assets/e153b8a2-91b0-4d7d-ae51-440b869bdd53" />
+</p>
+
+<p align="center">
+  <img width="953" alt="Achievements view" src="https://github.com/user-attachments/assets/02fa44be-61d4-4a71-9012-a0ab0711999c" />
+</p>
 
 ## クイックスタート
 
 ```bash
-# 初期設定（GitHubリポジトリ作成、速度・体重設定、ルート選択）
+# 初期セットアップ（GitHubリポジトリ作成、ローカル設定、ジャーニー選択）
 stp init
 
 # 60分のウォーキングを記録
 stp add 60
 
-# ダッシュボードをブラウザで開く
+# ブラウザでダッシュボードを表示
 stp open
-```
 
 ## コマンド
 
